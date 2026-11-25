@@ -1,0 +1,17 @@
+export const INBODY_FIELDS: { key: string; label: string; unit: string }[] = [
+  { key: "weight_kg", label: "Weight", unit: "kg" },
+  { key: "skeletal_muscle_mass_kg", label: "Skeletal muscle mass", unit: "kg" },
+  { key: "body_fat_mass_kg", label: "Body fat mass", unit: "kg" },
+  { key: "percent_body_fat", label: "Body fat", unit: "%" },
+  { key: "bmi", label: "BMI", unit: "" },
+  { key: "visceral_fat_level", label: "Visceral fat level", unit: "" },
+  { key: "bmr_kcal", label: "BMR", unit: "kcal" },
+  { key: "total_body_water_l", label: "Total body water", unit: "L" },
+  { key: "protein_kg", label: "Protein", unit: "kg" },
+  { key: "minerals_kg", label: "Minerals", unit: "kg" },
+  { key: "inbody_score", label: "InBody score", unit: "" },
+  { key: "waist_hip_ratio", label: "Waist-hip ratio", unit: "" },
+  { key: "target_weight_kg", label: "Target weight", unit: "kg" },
+  { key: "fat_control_kg", label: "Fat control", unit: "kg" },
+  { key: "muscle_control_kg", label: "Muscle control", unit: "kg" },
+];
